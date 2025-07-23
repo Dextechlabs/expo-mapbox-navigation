@@ -2,9 +2,8 @@ import { NativeModule, requireNativeModule } from 'expo';
 
 import { ExpoMapboxNavigationModuleEvents } from './ExpoMapboxNavigation.types';
 
-declare class ExpoMapboxNavigationModule extends NativeModule<ExpoMapboxNavigationModuleEvents> {
-  PI: number;
-  hello(): string;
+declare class ExpoMapboxNavigationModule extends NativeModule<ExpoMapboxNavigationModuleEvents>
+{
   setValueAsync(value: string): Promise<void>;
 }
 

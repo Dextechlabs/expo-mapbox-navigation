@@ -1,37 +1,24 @@
-import { useEvent } from 'expo';
-import ExpoMapboxNavigation, { ExpoMapboxNavigationView } from 'expo-mapbox-navigation';
-import { Button, SafeAreaView, ScrollView, Text, View } from 'react-native';
+import { useEvent } from "expo";
+import ExpoMapboxNavigation from "expo-mapbox-navigation";
+import { Button, SafeAreaView, ScrollView, Text, View } from "react-native";
 
 export default function App() {
-  const onChangePayload = useEvent(ExpoMapboxNavigation, 'onChange');
+  const onChangePayload = useEvent(ExpoMapboxNavigation, "onChange");
 
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.container}>
         <Text style={styles.header}>Module API Example</Text>
-        <Group name="Constants">
-          <Text>{ExpoMapboxNavigation.PI}</Text>
-        </Group>
-        <Group name="Functions">
-          <Text>{ExpoMapboxNavigation.hello()}</Text>
-        </Group>
         <Group name="Async functions">
           <Button
             title="Set value"
             onPress={async () => {
-              await ExpoMapboxNavigation.setValueAsync('Hello from JS!');
+              await ExpoMapboxNavigation.setValueAsync("Hello from JS!");
             }}
           />
         </Group>
         <Group name="Events">
           <Text>{onChangePayload?.value}</Text>
-        </Group>
-        <Group name="Views">
-          <ExpoMapboxNavigationView
-            url="https://www.example.com"
-            onLoad={({ nativeEvent: { url } }) => console.log(`Loaded: ${url}`)}
-            style={styles.view}
-          />
         </Group>
       </ScrollView>
     </SafeAreaView>
@@ -58,13 +45,13 @@ const styles = {
   },
   group: {
     margin: 20,
-    backgroundColor: '#fff',
+    backgroundColor: "#fff",
     borderRadius: 10,
     padding: 20,
   },
   container: {
     flex: 1,
-    backgroundColor: '#eee',
+    backgroundColor: "#eee",
   },
   view: {
     flex: 1,
