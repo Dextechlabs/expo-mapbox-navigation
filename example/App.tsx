@@ -1,60 +1,34 @@
-import { useEvent } from "expo";
-import ExpoMapboxNavigation from "expo-mapbox-navigation";
-import { Button, SafeAreaView, ScrollView, Text, View } from "react-native";
+import { View, Button, StyleSheet } from "react-native";
+import ExpoMapboxNavigationModule from "expo-mapbox-navigation";
 
 export default function App() {
-  const onChangePayload = useEvent(ExpoMapboxNavigation, "onChange");
+  const startNavigation = async () => {
+    // Start with specific coordinates (San Francisco)
+
+    // Or use the simple launch
+    try {
+      await ExpoMapboxNavigationModule.startNavigation({
+        latitude: 22.977007,
+        longitude: 88.445722,
+      });
+      // await ExpoMapboxNavigationModule.launchNavigation();
+      console.log("Navigation started successfully");
+    } catch (error) {
+      console.error("Failed to start navigation:", error);
+    }
+  };
 
   return (
-    <SafeAreaView style={styles.container}>
-      <ScrollView style={styles.container}>
-        <Text style={styles.header}>Module API Example</Text>
-        <Group name="Async functions">
-          <Button
-            title="Set value"
-            onPress={async () => {
-              await ExpoMapboxNavigation.setValueAsync("Hello from JS!");
-            }}
-          />
-        </Group>
-        <Group name="Events">
-          <Text>{onChangePayload?.value}</Text>
-        </Group>
-      </ScrollView>
-    </SafeAreaView>
-  );
-}
-
-function Group(props: { name: string; children: React.ReactNode }) {
-  return (
-    <View style={styles.group}>
-      <Text style={styles.groupHeader}>{props.name}</Text>
-      {props.children}
+    <View style={styles.container}>
+      <Button title="Start Navigation" onPress={startNavigation} />
     </View>
   );
 }
 
-const styles = {
-  header: {
-    fontSize: 30,
-    margin: 20,
-  },
-  groupHeader: {
-    fontSize: 20,
-    marginBottom: 20,
-  },
-  group: {
-    margin: 20,
-    backgroundColor: "#fff",
-    borderRadius: 10,
-    padding: 20,
-  },
+const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#eee",
+    justifyContent: "center",
+    alignItems: "center",
   },
-  view: {
-    flex: 1,
-    height: 200,
-  },
-};
+});
