@@ -2,5 +2,4 @@
   <string name="app_name">expo-mapbox-navigation-example</string>
   <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
   <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
-    <string name="stop_navigation">Stop Navigation</string>
 </resources>
