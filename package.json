@@ -18,6 +18,8 @@
   "keywords": [
     "react-native",
     "expo",
+    "mapbox-navigation",
+    "mapbox-navigation-sdk",
     "expo-mapbox-navigation",
     "ExpoMapboxNavigation"
   ],

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="expo.modules.mapboxnavigation">
 
-    <application>
+    <!-- <application>
        <activity
             android:name=".TurnByTurnExperienceActivity"
             android:exported="true">
@@ -11,5 +11,5 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+    </application> -->
 </manifest>
