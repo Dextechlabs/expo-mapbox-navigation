@@ -1,6 +1,6 @@
 {
-  "name": "expo-mapbox-navigation",
-  "version": "0.1.0",
+  "name": "@dextechlabs/expo-mapbox-navigation",
+  "version": "0.1.3",
   "description": "This module for display real time navigation",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -23,13 +23,13 @@
     "expo-mapbox-navigation",
     "ExpoMapboxNavigation"
   ],
-  "repository": "https://github.com/mahitosh-dey/expo-mapbox-navigation",
+  "repository": "https://github.com/Dextechlabs/expo-mapbox-navigation",
   "bugs": {
-    "url": "https://github.com/mahitosh-dey/expo-mapbox-navigation/issues"
+    "url": "https://github.com/Dextechlabs/expo-mapbox-navigation/issues"
   },
-  "author": "mahtosh-dey <mahitosh.influxiq@gmail.com> (https://github.com/mahitosh-dey)",
+  "author": "Dextechlabs <admin@dextechlabs.com> (https://github.com/Dextechlabs)",
   "license": "MIT",
-  "homepage": "https://github.com/mahitosh-dey/expo-mapbox-navigation#readme",
+  "homepage": "https://github.com/Dextechlabs/expo-mapbox-navigation#readme",
   "dependencies": {},
   "devDependencies": {
     "@types/react": "~19.0.0",
@@ -40,6 +40,7 @@
   "peerDependencies": {
     "expo": "*",
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "@rnmapbox/maps": "*"
   }
 }

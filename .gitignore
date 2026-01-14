@@ -4,6 +4,7 @@
 
 # VSCode
 .vscode/
+.build/
 jsconfig.json
 
 # Xcode

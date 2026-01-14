@@ -2,6 +2,23 @@ require File.join(File.dirname(`node --print "require.resolve('expo/package.json
 require File.join(File.dirname(`node --print "require.resolve('react-native/package.json')"`), "scripts/react_native_pods")
 
 require 'json'
+
+# Default CocoaPods source
+source 'https://cdn.cocoapods.org/'
+# Comment out the Mapbox source since we're using SPM
+# source 'https://github.com/mapbox/mapbox-navigation-ios.git'
+
+# Add this pre_install hook to exclude Mapbox frameworks from CocoaPods
+pre_install do |installer|
+  installer.pod_targets.each do |pod|
+    if ['MapboxCommon', 'MapboxCoreMaps', 'MapboxMaps', 'Turf', 'MapboxNavigationCore', 'MapboxNavigationUIKit'].include?(pod.name)
+      def pod.build_type
+        Pod::BuildType.static_library
+      end
+    end
+  end
+end
+
 podfile_properties = JSON.parse(File.read(File.join(__dir__, 'Podfile.properties.json'))) rescue {}
 
 ENV['RCT_NEW_ARCH_ENABLED'] = '0' if podfile_properties['newArchEnabled'] == 'false'
@@ -15,6 +32,8 @@ prepare_react_native_project!
 
 target 'expomapboxnavigationexample' do
   use_expo_modules!
+  
+
 
   if ENV['EXPO_USE_COMMUNITY_AUTOLINKING'] == '1'
     config_command = ['node', '-e', "process.argv=['', '', 'config'];require('@react-native-community/cli').run()"];

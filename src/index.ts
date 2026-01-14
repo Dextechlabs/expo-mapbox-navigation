@@ -1,6 +1,5 @@
 import { requireNativeModule, requireNativeView } from 'expo';
 import { NativeModule, ViewProps } from 'react-native';
-import React from 'react';
 
 export interface NativeCoordinate
 {

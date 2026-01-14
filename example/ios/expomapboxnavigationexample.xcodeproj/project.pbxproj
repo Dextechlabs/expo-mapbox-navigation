@@ -9,16 +9,34 @@
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		7BDDD7D2C754A35154368CA4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D1225D3F4AF4B06FEFD21 /* PrivacyInfo.xcprivacy */; };
+		993D81CEC54F234888DCFED1 /* libPods-expomapboxnavigationexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC35BCB77EC068397EE14B6 /* libPods-expomapboxnavigationexample.a */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		CD93AA302E606792003513D2 /* MapboxNavigationCore in Frameworks */ = {isa = PBXBuildFile; productRef = CD93AA2F2E606792003513D2 /* MapboxNavigationCore */; };
+		CD93AA322E606792003513D2 /* MapboxNavigationUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = CD93AA312E606792003513D2 /* MapboxNavigationUIKit */; };
+		CD93AA352E606B28003513D2 /* MapboxNavigationCore in Frameworks */ = {isa = PBXBuildFile; productRef = CD93AA342E606B28003513D2 /* MapboxNavigationCore */; };
+		CD93AA372E606B28003513D2 /* MapboxNavigationUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = CD93AA362E606B28003513D2 /* MapboxNavigationUIKit */; };
+		CD93AA582E607B11003513D2 /* MapboxNavigationCore in Frameworks */ = {isa = PBXBuildFile; productRef = CD93AA572E607B11003513D2 /* MapboxNavigationCore */; };
+		CD93AA5A2E607B11003513D2 /* MapboxNavigationUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = CD93AA592E607B11003513D2 /* MapboxNavigationUIKit */; };
+		CDB759E62E602DD3007CCDE2 /* MapboxNavigationCore in Frameworks */ = {isa = PBXBuildFile; productRef = CDB759E52E602DD3007CCDE2 /* MapboxNavigationCore */; };
+		CDB759E82E602DD3007CCDE2 /* MapboxNavigationUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = CDB759E72E602DD3007CCDE2 /* MapboxNavigationUIKit */; };
+		CDB7724F2E601CF20050F3CB /* MapboxNavigationCore in Frameworks */ = {isa = PBXBuildFile; productRef = CDB7724E2E601CF20050F3CB /* MapboxNavigationCore */; };
+		CDB772512E601CF20050F3CB /* MapboxNavigationUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = CDB772502E601CF20050F3CB /* MapboxNavigationUIKit */; };
+		D47FCED3D13310503A29ED66 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D72CB9D015CDBB10ED88FE /* ExpoModulesProvider.swift */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03D72CB9D015CDBB10ED88FE /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-expomapboxnavigationexample/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* expomapboxnavigationexample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = expomapboxnavigationexample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = expomapboxnavigationexample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = expomapboxnavigationexample/Info.plist; sourceTree = "<group>"; };
+		8C7D1225D3F4AF4B06FEFD21 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = expomapboxnavigationexample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A5CAAB3C6508E5570BD56A98 /* Pods-expomapboxnavigationexample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expomapboxnavigationexample.debug.xcconfig"; path = "Target Support Files/Pods-expomapboxnavigationexample/Pods-expomapboxnavigationexample.debug.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = expomapboxnavigationexample/SplashScreen.storyboard; sourceTree = "<group>"; };
+		B9C24A68053E4FBF9A012636 /* Pods-expomapboxnavigationexample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expomapboxnavigationexample.release.xcconfig"; path = "Target Support Files/Pods-expomapboxnavigationexample/Pods-expomapboxnavigationexample.release.xcconfig"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		EAC35BCB77EC068397EE14B6 /* libPods-expomapboxnavigationexample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-expomapboxnavigationexample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = expomapboxnavigationexample/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* expomapboxnavigationexample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "expomapboxnavigationexample-Bridging-Header.h"; path = "expomapboxnavigationexample/expomapboxnavigationexample-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -29,6 +47,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD93AA302E606792003513D2 /* MapboxNavigationCore in Frameworks */,
+				CDB759E62E602DD3007CCDE2 /* MapboxNavigationCore in Frameworks */,
+				CDB772512E601CF20050F3CB /* MapboxNavigationUIKit in Frameworks */,
+				CDB759E82E602DD3007CCDE2 /* MapboxNavigationUIKit in Frameworks */,
+				CD93AA5A2E607B11003513D2 /* MapboxNavigationUIKit in Frameworks */,
+				CD93AA352E606B28003513D2 /* MapboxNavigationCore in Frameworks */,
+				CDB7724F2E601CF20050F3CB /* MapboxNavigationCore in Frameworks */,
+				CD93AA372E606B28003513D2 /* MapboxNavigationUIKit in Frameworks */,
+				CD93AA322E606792003513D2 /* MapboxNavigationUIKit in Frameworks */,
+				CD93AA582E607B11003513D2 /* MapboxNavigationCore in Frameworks */,
+				993D81CEC54F234888DCFED1 /* libPods-expomapboxnavigationexample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +73,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
+				8C7D1225D3F4AF4B06FEFD21 /* PrivacyInfo.xcprivacy */,
 			);
 			name = expomapboxnavigationexample;
 			sourceTree = "<group>";
@@ -52,8 +82,18 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				EAC35BCB77EC068397EE14B6 /* libPods-expomapboxnavigationexample.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78F94AC0BAFDBC376E4FFB54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5CAAB3C6508E5570BD56A98 /* Pods-expomapboxnavigationexample.debug.xcconfig */,
+				B9C24A68053E4FBF9A012636 /* Pods-expomapboxnavigationexample.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -70,6 +110,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				78F94AC0BAFDBC376E4FFB54 /* Pods */,
+				FC4169530309EACD5C142222 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -93,6 +135,22 @@
 			path = expomapboxnavigationexample/Supporting;
 			sourceTree = "<group>";
 		};
+		F7F74BD767A15E3FCCC3675D /* expomapboxnavigationexample */ = {
+			isa = PBXGroup;
+			children = (
+				03D72CB9D015CDBB10ED88FE /* ExpoModulesProvider.swift */,
+			);
+			name = expomapboxnavigationexample;
+			sourceTree = "<group>";
+		};
+		FC4169530309EACD5C142222 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				F7F74BD767A15E3FCCC3675D /* expomapboxnavigationexample */,
+			);
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,12 +158,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "expomapboxnavigationexample" */;
 			buildPhases = (
-				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
+				5576D0D9746DBD3B886F63B7 /* [CP] Check Pods Manifest.lock */,
+				8BDEDA3C64E2304226C552AD /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
+				CE193AD9591A2E69943466C2 /* [CP] Embed Pods Frameworks */,
+				ADD3973EC0661E178F96C3E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,6 +198,9 @@
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
+			packageReferences = (
+				CD7FB0CB2E65D39500E90A91 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
+			);
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -155,6 +218,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				7BDDD7D2C754A35154368CA4 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +240,7 @@
 			shellPath = /bin/sh;
 			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\nif [[ -z \"$ENTRY_FILE\" ]]; then\n  # Set the entry JS file using the bundler's entry resolution.\n  export ENTRY_FILE=\"$(\"$NODE_BINARY\" -e \"require('expo/scripts/resolveAppEntry')\" \"$PROJECT_ROOT\" ios absolute | tail -n 1)\"\nfi\n\nif [[ -z \"$CLI_PATH\" ]]; then\n  # Use Expo CLI\n  export CLI_PATH=\"$(\"$NODE_BINARY\" --print \"require.resolve('@expo/cli', { paths: [require.resolve('expo/package.json')] })\")\"\nfi\nif [[ -z \"$BUNDLE_COMMAND\" ]]; then\n  # Default Expo CLI command for bundling\n  export BUNDLE_COMMAND=\"export:embed\"\nfi\n\n# Source .xcode.env.updates if it exists to allow\n# SKIP_BUNDLING to be unset if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.updates\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.updates\"\nfi\n# Source local changes to allow overrides\n# if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n`\"$NODE_BINARY\" --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n\n";
 		};
-		08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */ = {
+		5576D0D9746DBD3B886F63B7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -198,7 +262,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
+		8BDEDA3C64E2304226C552AD /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-expomapboxnavigationexample/expo-configure-project.sh\"\n";
+		};
+		ADD3973EC0661E178F96C3E0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,18 +289,46 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-expomapboxnavigationexample/Pods-expomapboxnavigationexample-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates/EXUpdates.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/RCTI18nStrings.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/ExpoConstants_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoFileSystem/ExpoFileSystem_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly/RCT-Folly_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/React-Core_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact/React-cxxreact_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/boost/boost_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/glog/glog_privacy.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXUpdates.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCTI18nStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoConstants_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoFileSystem_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCT-Folly_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-Core_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-cxxreact_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/boost_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/glog_privacy.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-expomapboxnavigationexample/Pods-expomapboxnavigationexample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE193AD9591A2E69943466C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-expomapboxnavigationexample/Pods-expomapboxnavigationexample-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-expomapboxnavigationexample/Pods-expomapboxnavigationexample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -228,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
+				D47FCED3D13310503A29ED66 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,10 +348,13 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CAAB3C6508E5570BD56A98 /* Pods-expomapboxnavigationexample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = expomapboxnavigationexample/expomapboxnavigationexample.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD6M7B295G;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -257,23 +372,26 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "expo.modules.mapboxnavigation.example";
-				PRODUCT_NAME = "expomapboxnavigationexample";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = expo.modules.mapboxnavigation.example;
+				PRODUCT_NAME = expomapboxnavigationexample;
 				SWIFT_OBJC_BRIDGING_HEADER = "expomapboxnavigationexample/expomapboxnavigationexample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				CODE_SIGN_ENTITLEMENTS = expomapboxnavigationexample/expomapboxnavigationexample.entitlements;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C24A68053E4FBF9A012636 /* Pods-expomapboxnavigationexample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = expomapboxnavigationexample/expomapboxnavigationexample.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD6M7B295G;
 				INFOPLIST_FILE = expomapboxnavigationexample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -286,13 +404,13 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "expo.modules.mapboxnavigation.example";
-				PRODUCT_NAME = "expomapboxnavigationexample";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = expo.modules.mapboxnavigation.example;
+				PRODUCT_NAME = expomapboxnavigationexample;
 				SWIFT_OBJC_BRIDGING_HEADER = "expomapboxnavigationexample/expomapboxnavigationexample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				CODE_SIGN_ENTITLEMENTS = expomapboxnavigationexample/expomapboxnavigationexample.entitlements;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -348,10 +466,14 @@
 					/usr/lib/swift,
 					"$(inherited)",
 				);
-				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -400,9 +522,12 @@
 					/usr/lib/swift,
 					"$(inherited)",
 				);
-				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -429,6 +554,92 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CD7FB0CB2E65D39500E90A91 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.12.0;
+			};
+		};
+		CD93AA332E606B28003513D2 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = "3.8.0-rc.1";
+			};
+		};
+		CD93AA562E607B11003513D2 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.11.1;
+			};
+		};
+		CDB7724D2E601CF20050F3CB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = "3.8.0-rc.1";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD93AA2F2E606792003513D2 /* MapboxNavigationCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MapboxNavigationCore;
+		};
+		CD93AA312E606792003513D2 /* MapboxNavigationUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MapboxNavigationUIKit;
+		};
+		CD93AA342E606B28003513D2 /* MapboxNavigationCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD93AA332E606B28003513D2 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigationCore;
+		};
+		CD93AA362E606B28003513D2 /* MapboxNavigationUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD93AA332E606B28003513D2 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigationUIKit;
+		};
+		CD93AA572E607B11003513D2 /* MapboxNavigationCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD93AA562E607B11003513D2 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigationCore;
+		};
+		CD93AA592E607B11003513D2 /* MapboxNavigationUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD93AA562E607B11003513D2 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigationUIKit;
+		};
+		CDB759E52E602DD3007CCDE2 /* MapboxNavigationCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDB7724D2E601CF20050F3CB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigationCore;
+		};
+		CDB759E72E602DD3007CCDE2 /* MapboxNavigationUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDB7724D2E601CF20050F3CB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigationUIKit;
+		};
+		CDB7724E2E601CF20050F3CB /* MapboxNavigationCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDB7724D2E601CF20050F3CB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigationCore;
+		};
+		CDB772502E601CF20050F3CB /* MapboxNavigationUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDB7724D2E601CF20050F3CB /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigationUIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
 }
